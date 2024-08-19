@@ -1,0 +1,59 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h4 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  h5 {
+    font-size: 18px;
+    margin: 0;
+  }
+  .reaction {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .visual {
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    fill: black;
+  }
+
+  .imguser {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  .username {
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .user {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .tags {
+    display: flex;
+    gap: 10px;
+  }
+  .tag {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+}

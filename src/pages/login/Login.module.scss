@@ -1,0 +1,49 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 552px;
+    height: 278px;
+  }
+  input,
+  select {
+    width: 552px;
+    height: 52px;
+    gap: 8px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid var(--color4);
+  }
+  .inputError {
+    border: 2px solid var(--color1);
+  }
+  button {
+    width: 552px;
+    height: 72px;
+    color: white;
+    font-size: 20px;
+    background-color: var(--color4);
+  }
+  .buttonError {
+    background-color: rgba(0, 0, 0, 0.121);
+    pointer-events: none;
+  }
+  .login {
+    display: flex;
+    justify-content: space-between;
+  }
+}

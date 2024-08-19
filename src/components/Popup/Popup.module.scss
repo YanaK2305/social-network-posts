@@ -1,0 +1,62 @@
+.root {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  width: 652px;
+  height: 679px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  .mainprofile {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .title {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .area {
+    width: 588px;
+    height: 266px;
+    margin: 10px;
+  }
+  .reaction {
+    display: flex;
+    gap: 40px;
+    margin: 10px;
+  }
+  .btn {
+    margin: 90px auto;
+    display: block;
+    border-radius: 39px;
+    border: 1px solid transparent;
+    padding: 19px 44px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #12121279;
+    color: white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .profile {
+    width: 68px;
+    height: 68px;
+  }
+  .profileRow {
+    display: flex;
+    align-items: center;
+  }
+  .profileTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

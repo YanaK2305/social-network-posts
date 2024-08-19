@@ -1,0 +1,40 @@
+.root {
+  .profileheader {
+    display: flex;
+    gap: 40px;
+    .wrappertop {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  .aboutleft {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+  }
+  .aboutright {
+    font-size: 17px;
+  }
+  .name {
+    font-size: 22px;
+    font-weight: 800;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+  }
+  .btn {
+    display: flex;
+    gap: 30px;
+  }
+  button {
+    background-color: white;
+    border: 1px solid black;
+  }
+}

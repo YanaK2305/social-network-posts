@@ -1,0 +1,31 @@
+.root {
+  height: 114px;
+  background-color: white;
+  padding: 0 52px;
+
+  .profile {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .headertop {
+    display: flex;
+    gap: 20px;
+  }
+  .rightheader {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  a {
+    color: black;
+  }
+  .headerButton {
+    border: none;
+  }
+}
